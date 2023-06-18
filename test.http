@@ -1,0 +1,12 @@
+### GET all products, 104
+GET http://127.0.0.1:3000/api/products HTTP/1.1
+Accept: application/json
+
+### GET download product
+GET http://127.0.0.1:3000/api/products/download
+Accept: application/json
+Content-Type: application/json
+
+{
+    
+}

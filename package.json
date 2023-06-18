@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "dotenv": "^16.2.0",
+    "hapi-pgsql": "^1.0.2",
+    "joi": "^17.9.2",
+    "moment": "^2.29.4",
+    "qs": "^6.11.2",
+    "woocommerce": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
